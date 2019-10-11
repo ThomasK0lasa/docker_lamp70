@@ -1,10 +1,8 @@
-![docker_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/docker_139x115.png) ![thk_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/thk-logo-white_100x100.png) ![lamp_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/lamp-stack_400x100.png)
-
-https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png
+![docker_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/docker_139x115.png) ![lamp_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/lamp-stack_400x100.png) ![thk_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/thk-logo-white_100x100.png)
 
 This Docker container implements LAMP stack with a set of popular PHP modules and PhpMyAdmin. The docker image was designed with persistent data volume in mind and if You don't have any data the default data will be copied to Your volumes (such as DB, Apache settings, php settings).
 
-If You would like image with newer (or older) version of PHP (5.6, 7.0, 7.2, 7.3) check out my second docker image here: [lamp_extended](http://hub.docker.com/r/thk1/lamp_extended). This image was tested and used sucesfully on Synology DMS6.2 for hosting purposes (without mail part). All sugestions and comments are welcomed.
+If You would like image with newer (or older) version of PHP (5.6, 7.0, 7.2, 7.3) check out my second docker image here: [lamp_extended](https://github.com/ThomasK0lasa/docker_lamp-extended). This image was tested and used sucesfully on Synology DMS6.2 for hosting purposes (without mail part). All sugestions and comments are welcomed.
 
 Includes the following components:
 
