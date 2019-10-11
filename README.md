@@ -1,4 +1,4 @@
-![docker_logo](https://github.com/ThomasK0lasa/docker-lamp70/blob/master/img/docker_139x115.png) ![thk_logo](https://github.com/ThomasK0lasa/docker-lamp70/blob/master/img/thk-logo-white_100x100.png) ![lamp_logo](https://github.com/ThomasK0lasa/docker-lamp70/blob/master/img/lamp-stack_400x100.png)
+![docker_logo](https://github.com/ThomasK0lasa/docker_lamp70/blob/02c8702488c5a280804d6347c5731efdc91adddc/img/docker_139x115.png) ![thk_logo](https://github.com/ThomasK0lasa/docker_lamp70/blob/02c8702488c5a280804d6347c5731efdc91adddc/img/thk-logo-white_100x100.png) ![lamp_logo](https://github.com/ThomasK0lasa/docker_lamp70/blob/02c8702488c5a280804d6347c5731efdc91adddc/img/lamp-stack_400x100.png)
 
 This Docker container implements LAMP stack with a set of popular PHP modules and PhpMyAdmin. The docker image was designed with persistent data volume in mind and if You don't have any data the default data will be copied to Your volumes (such as DB, Apache settings, php settings).
 
