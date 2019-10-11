@@ -1,4 +1,6 @@
-![docker_logo](https://github.com/ThomasK0lasa/docker_lamp70/blob/02c8702488c5a280804d6347c5731efdc91adddc/img/docker_139x115.png) ![thk_logo](https://github.com/ThomasK0lasa/docker_lamp70/blob/02c8702488c5a280804d6347c5731efdc91adddc/img/thk-logo-white_100x100.png) ![lamp_logo](https://github.com/ThomasK0lasa/docker_lamp70/blob/02c8702488c5a280804d6347c5731efdc91adddc/img/lamp-stack_400x100.png)
+![docker_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/docker_139x115.png) ![thk_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/thk-logo-white_100x100.png) ![lamp_logo](https://raw.githubusercontent.com/ThomasK0lasa/docker_lamp70/master/img/lamp-stack_400x100.png)
+
+https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png
 
 This Docker container implements LAMP stack with a set of popular PHP modules and PhpMyAdmin. The docker image was designed with persistent data volume in mind and if You don't have any data the default data will be copied to Your volumes (such as DB, Apache settings, php settings).
 
@@ -244,7 +246,7 @@ The image exposes ports `80` and `3306`, and exports such volumes:
 
 Please, refer to https://docs.docker.com/storage/volumes for more information on using host volumes.
 
-The user and group owner id for the DocumentRoot directory `/var/www/html` are both 33 (`uid=33(www-data) gid=33(www-data) groups=33(www-data)`).
+The user and group owner id for the DocumentRoot directory `/var/www/html` are both by default 33 (use WWWDATA_USR_ID and WWWDATA_GRP_ID variables to change them) (`uid=33(www-data) gid=33(www-data) groups=33(www-data)`).
 
 The user and group owner id for the MariaDB directory `/var/log/mysql` are 105 and 108 repectively (`uid=105(mysql) gid=108(mysql) groups=108(mysql)`).
 
@@ -254,7 +256,7 @@ Use cases
 #### Create a temporary container for testing purposes:
 
 ```
-	docker run -i -t --rm thk1/lamp70 /usr/sbin/run-lamp.sh &
+	docker run -i -t --rm thk1/lamp70 /usr/sbin/run-lamp.sh
 ```
 
 #### Create a temporary container to debug a web app:
